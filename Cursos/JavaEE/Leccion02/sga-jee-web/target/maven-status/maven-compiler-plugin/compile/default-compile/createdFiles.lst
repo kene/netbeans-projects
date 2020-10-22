@@ -1,0 +1,7 @@
+mx/com/gm/sga/data/PersonaDaoImpl.class
+mx/com/gm/sga/services/PersonaServiceImpl.class
+mx/com/gm/sga/data/PersonaDao.class
+mx/com/gm/sga/services/PersonaServiceRemote.class
+mx/com/gm/sga/services/PersonaService.class
+mx/com/gm/sga/domain/Persona.class
+mx/com/gm/sga/web/PersonaServlet.class

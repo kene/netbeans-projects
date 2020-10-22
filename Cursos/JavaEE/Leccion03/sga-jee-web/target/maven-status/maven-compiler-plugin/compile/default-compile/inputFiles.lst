@@ -1,0 +1,14 @@
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/domain/Persona.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/data/UsuarioDao.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/services/UsuarioServiceRemote.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/data/UsuarioDaoImpl.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/services/UsuarioServiceImpl.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/services/PersonaServiceRemote.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/domain/Usuario.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/web/UsuarioServlet.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/services/PersonaService.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/services/PersonaServiceImpl.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/web/PersonaServlet.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/services/UsuarioService.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/data/PersonaDaoImpl.java
+/Users/macos/NetBeansProjects/Cursos/JavaEE/Leccion03/sga-jee-web/src/main/java/mx/com/gm/sga/data/PersonaDao.java

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.12.0.final using JasperReports Library version 6.12.1-ac0eebdb29e4c0985457bab279a6db744d661530  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="EmployeeSimple_Blue" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3c8364cb-54a2-4e55-aa8c-7854778e00b1">
+	<field name="rfc" class="java.lang.String"/>
+	<field name="nombre" class="java.lang.String"/>
+	<field name="apellidoPaterno" class="java.lang.String"/>
+	<field name="apellidoMaterno" class="java.lang.String"/>
+	<field name="correoElectronico" class="java.lang.String"/>
+	<field name="telefono" class="java.lang.String"/>
+	<field name="codigoRestaurante" class="mx.com.unadm.mexican.food.restaurant.models.Restaurante">
+		<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="restaurante"/>
+	</field>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="92" backcolor="#006699" uuid="90132766-e1be-47a8-9038-78a34e67c785"/>
+				<staticText>
+					<reportElement x="20" y="20" width="375" height="43" forecolor="#FFFFFF" uuid="94720ef8-5f19-429c-90f3-5e2412cffb0d"/>
+					<textElement>
+						<font size="34" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Reporte Empleados]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="400" y="60" width="180" height="20" forecolor="#FFFFFF" uuid="7711c02c-3181-4a49-8298-427be39be692"/>
+					<textElement textAlignment="Right">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Empleados contratados]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="13"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="21">
+			<line>
+				<reportElement x="-20" y="20" width="595" height="1" forecolor="#666666" uuid="74da5e80-b128-447e-9e0e-af9bd4a8991b"/>
+			</line>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="110" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="75367f19-0fc8-4d1a-a284-4516d0100779">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="402a33f2-66d9-477f-93b9-37fdf318051e"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[rfc]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="110" y="0" width="79" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="30d0f045-9e67-4612-ba52-f7e9c9422b07">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="42a235bf-c484-4d10-8640-b352a2b0d31f"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[nombre]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="190" y="0" width="132" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="49c9ea54-d31f-44db-9df8-fdc90a3baeb8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e9f44c64-80c9-4477-9f93-acf98d5868ea"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[apellidos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="320" y="0" width="110" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="7f6624b0-8b3d-4acf-8561-e58fff2f26c0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a1eb99ab-ab67-41e5-bb27-0d96168da921"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[correo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="430" y="0" width="123" height="20" forecolor="#006699" backcolor="#E6E6E6" uuid="504bb18c-387f-480c-adec-201f0902404c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="127ebf21-6edc-42f2-b49f-3854b713f17f"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[restaurante]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="19" width="555" height="1" uuid="2a6ea717-7122-41b8-8812-0d647270c70d"/>
+			</line>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="0" y="0" width="100" height="20" uuid="d1d08e86-abbb-481a-848f-8a88ea58b58e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="402a33f2-66d9-477f-93b9-37fdf318051e"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{rfc}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="110" y="0" width="79" height="20" uuid="450f520b-04be-4b73-a59d-9713a04b85a0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="42a235bf-c484-4d10-8640-b352a2b0d31f"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="189" y="0" width="131" height="20" uuid="4f443689-800c-45c1-9d0b-1c544ebf9fd4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e9f44c64-80c9-4477-9f93-acf98d5868ea"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{apellidoPaterno} + " " + $F{apellidoMaterno}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="322" y="0" width="108" height="20" uuid="b6b8e588-c70b-4cfa-ba41-09a20bfd874a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a1eb99ab-ab67-41e5-bb27-0d96168da921"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{correoElectronico}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement x="430" y="0" width="123" height="20" uuid="3af7dcf7-fb32-420d-b1b3-d460698e694d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="127ebf21-6edc-42f2-b49f-3854b713f17f"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codigoRestaurante}.getNombre()]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="9b8e1708-2a00-460c-a0bb-cc51139b59d6"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Pagina "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="9b2380d8-2436-46e5-9d5c-6be4a3810e51"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="073c4d75-8fdf-401f-9833-6ec5611cb0b4"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>
